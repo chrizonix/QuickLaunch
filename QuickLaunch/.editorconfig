@@ -1,0 +1,8 @@
+
+# All files
+[*]
+indent_style = space
+end_of_line = crlf
+tab_width = 4
+indent_size = 4
+spelling_languages = en-US,de-DE
