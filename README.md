@@ -18,7 +18,7 @@ This tool allows you to create a Context Menu in the Taskbar of Windows 11 by se
 It uses the Windows Shell32 and User32 API to Extract the Icons of the Shortcuts in the selected folder.  
 You can then re-order the items, and then save the config and serialize the Context Menu to disk.
 
-Afterwards you can create a Quick Launch Icon in the Taskbar, that will use the Windows Shell API to Launch the Shortcuts.
+Afterwards you can create a Quick Launch Icon in the Taskbar, that will use the Shell32 API to Launch the Shortcuts.
 
 ## How To / Usage
 * Copy/Extract the `QuickLaunch.exe` to a Permanent Folder (e.g. Software/Tools)
@@ -36,7 +36,7 @@ Afterwards you can create a Quick Launch Icon in the Taskbar, that will use the 
   * ***Hint:*** During Startup of the programm you can also hold the `SHIFT` key to always start the Main Application
 * `--hide-taskbar`
   * By default, WinForms creates a Window in the Taskbar. This option hides the Window in the Taskbar
-  * ***Hint:*** Due to the simplicity of the CLI Parser, this option has to be the second argument `--show --hide-taskbar`
+  * ***Hint:*** Due to the simplicity of the CLI Parser, this option has to be the second, e.g. `--show --hide-taskbar`
 
 ## Hidden Features
 * You can rename Shortcut Links by editing the value in the `[Shortcuts]` section of `config.ini` (see Screenshot)
