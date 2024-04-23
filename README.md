@@ -1,4 +1,4 @@
-# Quick Launch Toolbar for Shortcut Links in Windows 11
+# Quick Launch Toolbar for Windows 11
 [![GitHub Release](https://img.shields.io/github/release/chrizonix/QuickLaunch.svg)](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.0)
 [![Github Downloads](https://img.shields.io/github/downloads/chrizonix/QuickLaunch/total.svg)](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.0)
 [![Github Commits (since latest release)](https://img.shields.io/github/commits-since/chrizonix/QuickLaunch/latest.svg)](https://github.com/chrizonix/QuickLaunch/compare/v1.2.8.0...master)
