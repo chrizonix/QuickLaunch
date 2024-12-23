@@ -38,7 +38,7 @@ namespace QuickLaunch.Data
             this.ShortcutFolder = String.Empty;
 
             // Set Default Timeout (in ms)
-            this.DefaultTimeout = 2000;
+            this.DefaultTimeout = 6000;
         }
     }
 
