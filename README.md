@@ -22,6 +22,7 @@ Afterwards you can create a Quick Launch Icon in the Taskbar, that will use the 
 
 ## How To / Usage
 * Copy/Extract the `QuickLaunch.exe` to a Permanent Folder (e.g. Software/Tools)
+* Open the `QuickLaunch.exe` and Click on "Create/Load Config"
 * Select your Shortcut Folder containing the Links/Shortcuts/Documents
 * Re-Order the Context Menu, and Setup the Context Menu Position
 * Click on the "Save Config" Menu Button
