@@ -92,7 +92,7 @@ namespace GitHub.SimpleIni
             AllowCommentsAfterValue = true;
             AllowSections = true;
             Delimiter = '=';
-            KeyValidationRegex = @"^[a-zA-Z_\.0-9\-/\\ \(\)\]\[\{\}\?\+:,;\w]+$";
+            KeyValidationRegex = @"^[a-zA-Z_\.0-9\-/\\ \(\)\]\[\{\}\?\+:,;\w\$]+$";
             BoolPositiveValues = new HashSet<string>(new string[] { "1", "true", "yes", "on" });
             BoolNegativeValues = new HashSet<string>(new string[] { "0", "false", "no", "off" });
             LowercaseBoolValues = true;
