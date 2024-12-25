@@ -1,7 +1,7 @@
 # Quick Launch Toolbar for Windows 11
-[![GitHub Release](https://img.shields.io/github/release/chrizonix/QuickLaunch.svg)](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.2)
-[![Github Downloads](https://img.shields.io/github/downloads/chrizonix/QuickLaunch/total.svg)](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.2)
-[![Github Commits (since latest release)](https://img.shields.io/github/commits-since/chrizonix/QuickLaunch/latest.svg)](https://github.com/chrizonix/QuickLaunch/compare/v1.2.8.2...master)
+[![GitHub Release](https://img.shields.io/github/release/chrizonix/QuickLaunch.svg)](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.4)
+[![Github Downloads](https://img.shields.io/github/downloads/chrizonix/QuickLaunch/total.svg)](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.4)
+[![Github Commits (since latest release)](https://img.shields.io/github/commits-since/chrizonix/QuickLaunch/latest.svg)](https://github.com/chrizonix/QuickLaunch/compare/v1.2.8.4...master)
 [![GitHub Repo Size in Bytes](https://img.shields.io/github/repo-size/chrizonix/QuickLaunch.svg)](https://github.com/chrizonix/QuickLaunch)
 [![Github License](https://img.shields.io/github/license/chrizonix/QuickLaunch.svg)](LICENSE.md)
 
@@ -46,7 +46,10 @@ Afterwards you can create a Quick Launch Icon in the Taskbar, that will use the 
 
 ![Screenshot](https://github.com/chrizonix/QuickLaunch/releases/download/v1.2.8.0/Screenshot.png)
 
-## Changelog v1.2.8.2 ([Latest Version](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.2))
+## Changelog v1.2.8.4 ([Latest Version](https://github.com/chrizonix/QuickLaunch/releases/tag/v1.2.8.4))
+* Fixed Regex for Allowed Characters in File Names
+
+## Changelog v1.2.8.2
 * Added Dollar Sign to Allowed Characters
 * Updated Default Timeout to 6000
 
