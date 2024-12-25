@@ -88,11 +88,11 @@ namespace GitHub.SimpleIni
             Thread.CurrentThread.CurrentUICulture = cultureInfo;
 
             // Default Constructor
-            CommentCharacters = new char[] { '#', ';' };
+            CommentCharacters = new char[] {};
             AllowCommentsAfterValue = true;
             AllowSections = true;
             Delimiter = '=';
-            KeyValidationRegex = @"^[a-zA-Z_\.0-9\-/\\ \(\)\]\[\{\}\?\+:,;\w\$]+$";
+            KeyValidationRegex = @"^[^=]+$";
             BoolPositiveValues = new HashSet<string>(new string[] { "1", "true", "yes", "on" });
             BoolNegativeValues = new HashSet<string>(new string[] { "0", "false", "no", "off" });
             LowercaseBoolValues = true;
